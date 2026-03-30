@@ -1,0 +1,32 @@
+{
+  "global_settings": {
+    "normalization": "N",
+    "outlier": "N"
+  },
+  "parameters": {
+    "INJ-MAX-PRESSURE": {
+      "nRangeMax": 160,
+      "nRangeMin": -1,
+      "kategori": "Y",
+      "treshold": "Y"
+    },
+    "CUSHION-POSITION": {
+      "nRangeMax": 70,
+      "nRangeMin": -2,
+      "kategori": "Y",
+      "treshold": "N"
+    },
+    "NH1-TEMP": {
+      "nRangeMax": 238,
+      "nRangeMin": -3,
+      "kategori": "N",
+      "treshold": "Y"
+    },
+    "NH2-TEMP": {
+      "nRangeMax": 250,
+      "nRangeMin": -4,
+      "kategori": "N",
+      "treshold": "N"
+    }
+  }
+}
